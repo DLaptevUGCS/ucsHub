@@ -16,10 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This utility class provides an abstraction layer for sending multipart HTTP
- * POST requests to a web server.
- *
- * @author www.codejava.net
+
+ * todo remove comments and old code
  */
 public class MultipartUtility {
     private final String boundary;
@@ -32,9 +30,7 @@ public class MultipartUtility {
     public String strHttpReponseCode;
 
     /**
-     * This constructor initializes a new HTTP POST request with content type
-     * is set to multipart/form-data
-     *
+
      * @param requestURL
      * @param charset
      * @throws IOException
